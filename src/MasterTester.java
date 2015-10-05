@@ -6,5 +6,6 @@ public class MasterTester {
 		Point firstPoint = new Point (0,1);
 		Point secondPoint = new Point (0,0);
 		System.out.println(firstPoint.distance(secondPoint));
+		throw new IncorrectlyCompletedException();
 	}
 }
