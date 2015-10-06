@@ -1,4 +1,3 @@
-package src;
 
 import java.util.*;
 
@@ -11,14 +10,14 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
-	
+
 	public double getDistance (Point otherPoint) { return(Math.sqrt(Math.pow(this.x-otherPoint.getX(), 2)+Math.pow(this.y-otherPoint.getY(), 2))); }
-	
+
 	public double getX() { return(x); }
-	
+
 	public double getY() { return(y); }
-	
+
 	public void setX() { this.x = x; }
-	
+
 	public void setY() { this.y = y; }
 }
