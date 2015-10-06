@@ -1,3 +1,5 @@
+package src;
+
 import java.util.*;
 
 public class PointTester {
@@ -13,7 +15,7 @@ public class PointTester {
 		System.out.print("Please enter the y coordinate of the second point: ");
 		y = s.nextInt();
 		Point secondPoint = new Point (x,y);
-		System.out.println("The distance between the two points is: "+firstPoint.distance(secondPoint));
+		System.out.println("The distance between the two points is: "+firstPoint.getDistance(secondPoint));
 
 	}
 }

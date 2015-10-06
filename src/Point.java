@@ -1,16 +1,24 @@
+package src;
+
 import java.util.*;
 
 public class Point {
 
-	public int x;
-	public int y;
+	private double x;
+	private double y;
 
-	public Point (int x, int y) {
+	public Point (double x, double y) {
 		this.x = x;
 		this.y = y;
 	}
-
-	public double distance (Point otherPoint) {
-		return(Math.sqrt(Math.pow(this.x-otherPoint.x, 2)+Math.pow(this.y-otherPoint.y, 2)));
-	}
+	
+	public double getDistance (Point otherPoint) { return(Math.sqrt(Math.pow(this.x-otherPoint.getX(), 2)+Math.pow(this.y-otherPoint.getY(), 2))); }
+	
+	public double getX() { return(x); }
+	
+	public double getY() { return(y); }
+	
+	public void setX() { this.x = x; }
+	
+	public void setY() { this.y = y; }
 }
