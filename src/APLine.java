@@ -31,6 +31,18 @@ public class APLine
         }
     }
 
+    public boolean isOnLine(Point point)
+    {
+        if(this.a * point.getX() + this.b * point.getY() + this.c == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
     //setters and getters
     public double getA()
     {
