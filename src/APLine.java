@@ -13,6 +13,13 @@ public class APLine
         this.c = c;
     }
 
+    public APLine(Point point1, Point point2) {
+      double slope = point1.getSlope(point2);
+      this.a = - slope;
+      this.b = 1;
+      this.c = slope * point1.getX() - point1.getY();
+    }
+
     //methods
     public double getSlope()
     {
