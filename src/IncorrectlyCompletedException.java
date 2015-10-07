@@ -1,4 +1,3 @@
-
 public class IncorrectlyCompletedException extends Exception {
   public IncorrectlyCompletedException() { super(); }
   public IncorrectlyCompletedException(String message) { super(message); }
