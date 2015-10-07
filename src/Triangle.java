@@ -1,3 +1,5 @@
+package src;
+
 public class Triangle
 {
     //instance variables

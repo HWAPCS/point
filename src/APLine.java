@@ -1,3 +1,5 @@
+package src;
+
 public class APLine
 {
     //instance variables
